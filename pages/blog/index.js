@@ -16,15 +16,8 @@ function Blog(){
         {
             author: "St. Salad",
             authorImg: "https://icons-for-free.com/iconfiles/png/512/design+development+facebook+framework+mobile+react+icon-1320165723839064798.png",
-            postText: "Quis sit eiusmod ut do do. Exercitation pariatur laborum qui ut velit ullamco mollit Lorem occaecat ad culpa qui consectetur velit.",
-            postImg: "https://media.vogue.co.uk/photos/60828897496cb3f3c0c142bb/16:9/w_1280,c_limit/jennierubyjane.jpg",
-            date: "2 hours ago",
-        },
-        {
-            author: "St. Salad",
-            authorImg: "https://icons-for-free.com/iconfiles/png/512/design+development+facebook+framework+mobile+react+icon-1320165723839064798.png",
             postText: "Est ullamco occaecat excepteur est nostrud esse tempor aliqua ut. Quis sit eiusmod ut do do. Exercitation pariatur laborum qui ut velit ullamco mollit Lorem occaecat ad culpa qui consectetur velit.",
-            postImg: null,
+            postImg: "",
             date: "1 day ago",
         },
     ]
