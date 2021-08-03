@@ -1,0 +1,13 @@
+.Layout{
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+.Layout .Content{
+  padding: 20px 0;
+}
+
+@media only screen and (max-width: 1366px) {
+    .Layout {
+    }
+}

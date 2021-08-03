@@ -1,0 +1,59 @@
+.Imagemodal{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    background-color: rgba(157, 157, 157, 0.837);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.Imagemodal img{
+  vertical-align: bottom;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1366px) {
+  .Imagemodal .Imagecontainer{
+      width: 95% !important; 
+  }
+}
+
+.ImageClass{
+  cursor: pointer;
+}
+
+.Imagemodal .Imagecontainer{
+  position: relative;
+  width: 70%;
+}
+
+.Close {
+    position: absolute;
+     float: right;
+     right: 20px;
+     top: 10px;
+     display: inline;
+     width: 25px;
+     height: 25px;
+   }
+   .Close:hover {
+     opacity: 0.5;
+   }
+   .Close:before, .Close:after {
+     position: absolute;
+     left: 15px;
+     content: ' ';
+     width: 25px;
+     height: 25px;
+     width: 2px;
+     background-color: rgba(255, 3, 3, 0.7);
+   }
+   .Close:before {
+     transform: rotate(45deg);
+   }
+   .Close:after {
+     transform: rotate(-45deg);
+   }

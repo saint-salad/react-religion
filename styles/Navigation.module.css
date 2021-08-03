@@ -1,0 +1,19 @@
+.Navigation{
+    display: block;
+    min-height: 50px;
+    border-bottom: 1px solid gray;
+}
+
+.Tab{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 15px 20px 15px 0;
+}
+
+.Logo{
+    font-weight: 700;
+    font-size: 20px;
+    color: #282c34;
+    margin-right: 100px;
+}

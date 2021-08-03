@@ -1,0 +1,52 @@
+.Blogpost{
+    margin: 0 auto;
+    margin-top: 20px;
+    max-width: 800px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(206, 208, 212);
+}
+
+.Header{
+    display: flex;
+}
+
+.Header img{
+    height: 40px;
+    width: 40px;
+    margin-right: 5px;
+    vertical-align: bottom;
+}
+
+.Header .Row{
+    display: inline-block;
+    font-size: 15px;
+}
+
+.Header .Date{
+    font-size: 12px;
+    display: block;
+    color: rgb(176, 179, 184);
+}
+
+.Body {
+    border-bottom: 1px solid rgb(206, 208, 212);
+    padding: 10px 5px;
+}
+
+.Body .PostImg{
+    margin-top: 10px;
+    width:100%;
+    height:100%;
+    width: calc(100% + 30px); 
+    margin-left: -15px;
+}
+
+.Body .PostImgModal{
+    width: 70%; 
+    transition: width 2s;
+}
+
+.Footer {
+    padding: 10px 5px 0 5px;
+}
