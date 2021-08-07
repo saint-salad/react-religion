@@ -3,7 +3,6 @@ import Commentbox from "./Commentbox";
 // import Modal from "../components/Modal"
 import Imagemodal from "../components/Imagemodal"
 import { useState } from 'react';
-import { TrafficRounded } from '@material-ui/icons';
 import LazyLoad from 'react-lazyload'
 
 function Blogpost(props){
@@ -33,7 +32,7 @@ function Blogpost(props){
             <div className={Style.Body}>
                 {props.details.postText}
                 { props.details.postImg && 
-                    <LazyLoad height={200} delayTime={300} effect="blur">
+                    <LazyLoad height={500} delayTime={5000} effect="blur">
                         <Imagemodal show={()=> showModal()} close={()=> closeModal()} isModalMode={showPostImg} class={Style.PostImg} src={props.details.postImg}/>
                     </LazyLoad>
                     

@@ -3,14 +3,12 @@ import { v4 as uuidv4 } from 'uuid'
 
 
 function Imagemodal(props){
-
     
     const MODAL_ID = "modal6969"
 
     const handleOutsideClick = (e) =>{
         if(e.target.id=== MODAL_ID) props.close()
     }
-
 
 
 
